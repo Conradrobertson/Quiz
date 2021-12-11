@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Quiz!</title>
+  </head>
+  <body>
+    <h1>Quiz true or false!</h1>
+    <div class="display-quiz">
+      <button class="start">Start quiz!</button>
+      <button class="dark-light-mode">Dark/Light mode!</button>
+    </div>
+    <div class="game" style="display: none">
+      <div class="question">
+        <legend for="answer1">
+          <strong>Ett dygn består av 86 400 sekunder</strong>
+        </legend>
+        <label for="answer1">Sant</label>
+        <input type="radio" name="answer1" id="1a" value="true" />
+
+        <label for="answer1">Falskt</label>
+        <input type="radio" name="answer1" id="1b" value="false" />
+
+        <h4 class="result1"></h4>
+      </div>
+
+      <div class="question">
+        <legend for="answer2">
+          <strong
+            >Ordet "Polis" kommer från grekiskan och betyder "Stad"</strong
+          >
+        </legend>
+        <label for="answer2">Sant</label>
+        <input type="radio" name="answer2" id="2a" value="true" />
+
+        <label for="answer2">Falskt</label>
+        <input type="radio" name="answer2" id="2b" value="false" />
+        <h4 class="result2"></h4>
+      </div>
+
+      <div class="question">
+        <legend for="answer3">
+          <strong>Påskön är en ö i Atlanten</strong>
+        </legend>
+        <label for="answer3">Sant</label>
+        <input type="radio" name="answer3" id="3a" value="false" />
+
+        <label for="answer3">Falskt</label>
+        <input type="radio" name="answer3" id="3b" value="true" />
+        <h4 class="result3"></h4>
+      </div>
+
+      <div class="question">
+        <legend for="answer4">
+          <strong>Det råder vänstertrafik i Thailand</strong>
+        </legend>
+        <label for="answer4">Sant</label>
+        <input type="radio" name="answer4" id="4a" value="true" />
+
+        <label for="answer4">Falskt</label>
+        <input type="radio" name="answer4" id="4b" value="false" />
+        <h4 class="result4"></h4>
+      </div>
+
+      <div class="question">
+        <legend for="answer5">
+          <strong>Kvinnor lever generellt längre än män</strong>
+        </legend>
+        <label for="answer5">Sant</label>
+        <input type="radio" name="answer5" id="5a" value="true" />
+
+        <label for="answer5">Falskt</label>
+        <input type="radio" name="answer5" id="5b" value="false" />
+        <h4 class="result5"></h4>
+      </div>
+
+      <div class="question">
+        <legend for="answer6">
+          <strong>Guldfiskar har 3 sekunders minne</strong>
+        </legend>
+        <label for="answer6">Sant</label>
+        <input type="radio" name="answer6" id="6a" value="false" />
+
+        <label for="answer6">Falskt</label>
+        <input type="radio" name="answer6" id="6b" value="true" />
+        <h4 class="result6"></h4>
+      </div>
+
+      <div class="question">
+        <legend for="answer7">
+          <strong
+            >Det finns fler stjärnor än sandkorn på alla stränder på hela
+            jorden</strong
+          >
+        </legend>
+        <label for="answer7">Sant</label>
+        <input type="radio" name="answer7" id="7a" value="true" />
+
+        <label for="answer7">Falskt</label>
+        <input type="radio" name="answer7" id="7b" value="false" />
+        <h4 class="result7"></h4>
+      </div>
+
+      <div class="question">
+        <legend for="answer8">
+          <strong>Kinesiska muren syns från yttre rymden</strong>
+        </legend>
+        <label for="answer8">Sant</label>
+        <input type="radio" name="answer8" id="8a" value="false" />
+
+        <label for="answer8">Falskt</label>
+        <input type="radio" name="answer8" id="8b" value="true" />
+        <h4 class="result8"></h4>
+      </div>
+
+      <div class="question">
+        <legend for="answer9">
+          <strong
+            >År 1973 öppnade Mc Donalds sin första restaurang i Sverige</strong
+          >
+        </legend>
+        <label for="answer9">Sant</label>
+        <input type="radio" name="answer9" id="9a" value="true" />
+
+        <label for="answer9">Falskt</label>
+        <input type="radio" name="answer9" id="9b" value="false" />
+        <h4 class="result9"></h4>
+      </div>
+
+      <div class="question">
+        <legend for="answer10">
+          <strong>Ca 4% av Sveriges befolkning har diabetes</strong>
+        </legend>
+        <label for="answer10">Sant</label>
+        <input type="radio" name="answer10" id="10a" value="true" />
+
+        <label for="answer10">Falskt</label>
+        <input type="radio" name="answer10" id="10b" value="false" />
+        <h4 class="result10"></h4>
+      </div>
+
+      <div class="button2">
+        <button class="restart-btn">Start over!</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
